@@ -5,6 +5,9 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+*.db
+*.sqlite
+*.sqlite3
 
 # Environment and secrets
 .env
@@ -14,6 +17,7 @@ __pycache__/
 # IDE and OS files
 .idea/
 .DS_Store
+typescript
 
 # Frontend dependencies and builds
 frontend/node_modules/
